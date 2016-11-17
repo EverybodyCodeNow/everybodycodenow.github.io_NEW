@@ -1,0 +1,130 @@
+/*
+COLORS:
+Dark Blue: #03175e
+Official Blue: #1fbef3
+Light Blue: #73dafd
+*/
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #000000;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+/*
+-------------------------------------------------------------------------------
+Primary navigation
+-------------------------------------------------------------------------------
+*/
+.navbar-custom {
+  background-color: #ffffff;
+}
+ul.nav a:hover { color: #1fbef3 !important; }
+.navbar-brand { /* logo image */
+  padding: 0px;
+}
+.navbar-brand>img { /* logo image */
+  height: 50px;
+  padding: 5px;
+  width: auto;
+}
+@media (min-width: 700px) { /* drop down on hover */
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+}
+.navbar-btn {
+  margin: 10px;
+}
+.btn-login {
+  background-color: #ffffff;
+  border: 1px solid #1fbef3;
+  color: #1fbef3;
+}
+.btn-login:hover { border: 1px solid #73dafd; color: #73dafd; }
+.btn-signup {
+  background-color: #1fbef3;
+  border: 1px solid #1fbef3;
+  color: #ffffff;
+}
+.btn-signup:hover { border: 1px solid #73dafd; background-color: #73dafd; color: #ffffff; }
+
+/*
+-------------------------------------------------------------------------------
+Home page
+-------------------------------------------------------------------------------
+*/
+#header {
+  width:100%;
+  background-color: #1fbef3;
+  height: 100vh;
+}
+.jumbotron.header {
+  background-color: transparent;
+  color: #ffffff;
+  text-align: center;
+  align-content: center;
+  position: relative;
+  top: 25vh;
+}
+.btn-lg { background-color: #03175e; border: 0px; }
+.btn-lg:hover { border: 0px; }
+.jumbotron.centered {
+  text-align: center;
+  align-content: center;
+}
+
+/*
+-------------------------------------------------------------------------------
+Team members page
+-------------------------------------------------------------------------------
+*/
+.profile-image {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.profile-image:hover {
+  filter: brightness(50%);
+  cursor: pointer;
+}
+.profile-description {
+  position: absolute;
+  top: 65%;
+  left: 30px;
+  color: #ffffff;
+  visibility: hidden;
+}
+.col-sm-4:hover .profile-description {
+  visibility: visible;
+  background-color: #000000;
+}
