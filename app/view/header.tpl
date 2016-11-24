@@ -70,7 +70,6 @@
               <li><a href="#">Supporters</a></li>
             </ul>
           </li>
-          <li><a href="#">Login</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li><button type="button" class="btn btn-login navbar-btn">Login</button></li>
