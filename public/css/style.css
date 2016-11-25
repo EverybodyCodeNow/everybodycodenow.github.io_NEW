@@ -11,6 +11,8 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  /*prevent overlapping navbar and body*/
+  padding-top: 70px;
 }
 .footer {
   position: absolute;

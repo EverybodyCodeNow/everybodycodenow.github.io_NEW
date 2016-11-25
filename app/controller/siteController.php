@@ -15,16 +15,20 @@ class SiteController {
   public function route($action) {
     switch($action) {
       case 'home':
-      $this->home();
-      break;
+          $this->home();
+          break;
 
       case 'about':
-      $this->about();
-      break;
+          $this->about();
+          break;
 
       case 'team':
-      $this->team();
-      break;
+          $this->team();
+          break;
+
+      case 'contact':
+          $this->contact();
+          break;
 
       // redirect to home page if all else fails
       default:
@@ -65,5 +69,11 @@ class SiteController {
     include_once SYSTEM_PATH.'/view/team.tpl';
     include_once SYSTEM_PATH.'/view/footer.tpl';
   }
+
+    public function contact() {
+        include_once SYSTEM_PATH.'/view/header.tpl';
+        include_once SYSTEM_PATH.'/view/contact.tpl';
+        include_once SYSTEM_PATH.'/view/footer.tpl';
+    }
 
 }
