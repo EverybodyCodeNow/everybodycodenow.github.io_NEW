@@ -1,3 +1,4 @@
+<div>
 <div class="container">
   <div class="jumbotron centered">
     <h1>Our Story</h1>
@@ -16,4 +17,6 @@
 
     <p><a class="btn btn-primary btn-lg" href="<?= BASE_URL ?>/team" role="button">Meet Our Team</a></p>
   </div>
+</div>
+
 </div>

@@ -1,7 +1,8 @@
 
 
-<div class="col-lg-4 col-md-4"></div>
-     <div class="col-lg-4 col-md-4">
+<div class="col-lg-2 col-md-2"></div>
+     <div class="col-lg-8 col-md-8">
+         <h1> Contact Us</h1>
      <form>
          <div class="row">
              <div class ="form-group col-lg-6">
@@ -34,4 +35,4 @@
      </form>
 
      </div>
-     <div class="col-lg-offset-4 col-md-offset-4"></div>
+     <div class="col-lg-offset-2 col-md-offset-2"></div>

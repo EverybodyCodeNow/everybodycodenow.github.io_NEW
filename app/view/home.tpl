@@ -1,5 +1,6 @@
+<div class="body-container">
 <div id="header">
-  <div class="container">
+
     <div class="jumbotron header">
       <h1>Everybody Code Now!</h1>
       <p>Everybody Code Now! works to empower the next generation of leaders

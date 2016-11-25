@@ -30,6 +30,10 @@ class SiteController {
           $this->contact();
           break;
 
+        case 'programs':
+            $this->programs();
+            break;
+
       // redirect to home page if all else fails
       default:
       header('Location: '.BASE_URL);
@@ -73,6 +77,12 @@ class SiteController {
     public function contact() {
         include_once SYSTEM_PATH.'/view/header.tpl';
         include_once SYSTEM_PATH.'/view/contact.tpl';
+        include_once SYSTEM_PATH.'/view/footer.tpl';
+    }
+
+    public function programs() {
+        include_once SYSTEM_PATH.'/view/header.tpl';
+        include_once SYSTEM_PATH.'/view/programs.tpl';
         include_once SYSTEM_PATH.'/view/footer.tpl';
     }
 
