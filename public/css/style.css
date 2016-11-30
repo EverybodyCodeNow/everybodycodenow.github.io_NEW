@@ -16,12 +16,7 @@ body {
   /*prevent overlapping navbar and body*/
   /*min-height:100%;*/
 }
-.body-container{
-  /*overflow: hidden;*/
-  /*min-height: 100%;*/
-  /*height: auto !important;*/
 
-}
 .footer {
   position: absolute;
   bottom: 0;
@@ -138,4 +133,44 @@ Team members page
 .col-sm-4:hover .profile-description {
   visibility: visible;
   background-color: #000000;
+}
+/*
+-------------------------------------------------------------------------------
+Programs page
+-------------------------------------------------------------------------------
+*/
+
+.body-container .intro {
+  width:100%;
+  background-color: #1fbef3;
+  height: 50vh;
+
+
+}
+
+.intro > .jumbotron.header {
+  top: 8vh;
+  padding:10px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 150px;
+  height:150px;
+}
+
+.program > .container{
+  text-align: center;
+  align-content: center;
+  width:80%;
+  max-width:1000px;
+
+}
+
+.program{
+  margin-top: 100px;
+  margin-bottom:100px;
+
+  margin-left:auto;
+  margin-right:auto;
 }
